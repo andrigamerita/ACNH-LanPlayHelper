@@ -1,4 +1,6 @@
 @echo off
+cmd
+@echo off
 title LanPlayHelper Files Downloader
 color 9f
 
@@ -33,7 +35,7 @@ echo Press Enter to start the download.
 pause > nul
 
 cd lanhelperfiles
-wget -O 
+bitsadmin /transfer lan-play /priority high UrlOfTheFile SaveFileAsName
 
 cls
 echo spacc completed

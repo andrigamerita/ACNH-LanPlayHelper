@@ -35,9 +35,12 @@ pause > nul
 
 cd LanPlayHelper
 mkdir stuff
+timeout 1 > nul
 bitsadmin /transfer main /priority high https://github.com/andrigamerita/ACNH-LanPlayHelper/blob/master/sources/start_ENG.bat %cd%\start_ENG.bat
 cd stuff
+timeout 1 > nul
 bitsadmin /transfer lanplay /priority high https://github.com/andrigamerita/ACNH-LanPlayHelper/raw/master/sources/lan-play.exe %cd%\lan-play.exe
+timeout 1 > nul
 bitsadmin /transfer winpcap /priority high https://github.com/andrigamerita/ACNH-LanPlayHelper/blob/master/sources/winpcap-setup.exe %cd%\winpcap-setup.exe
 cd ..
 

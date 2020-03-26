@@ -8,3 +8,9 @@
 
 ## Guida italiana:
 [guide_ita.md](https://github.com/andrigamerita/ACNH-LanPlayHelper/blob/master/guide_ita.md)
+
+---
+
+## Special thanks to:
+* spacemeowx2 for [switch-lan-play](https://github.com/spacemeowx2/switch-lan-play)
+* Riverbed Technology for [WinPcap](https://www.winpcap.org/default.htm)

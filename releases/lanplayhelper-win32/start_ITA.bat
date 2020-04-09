@@ -73,7 +73,7 @@ echo.
 echo  Per tornare al menu, premi Ctrl+C e digita N.
 echo.
 set /p addr=
-stuff\lan-play.exe --pmtu 500 --relay-server-addr %addr%
+stuff\lan-play-win32.exe --pmtu 500 --relay-server-addr %addr%
 echo.
 echo  Premi Invio per tornare al menu.
 pause > nul
